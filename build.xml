@@ -45,7 +45,7 @@
      set to the current working directory.
 -->
 
-<project name="AnimalSoundsServlet" default="compile" basedir=".">
+<project name="My Project" default="compile" basedir=".">
 
 
 
@@ -124,11 +124,11 @@
 
 -->
 
-  <property name="app.name"      value="AnimalSoundsServlet"/>
+  <property name="app.name"      value="myapp"/>
   <property name="app.path"      value="/${app.name}"/>
   <property name="app.version"   value="0.1-dev"/>
   <property name="build.home"    value="${basedir}/build"/>
-  <property name="catalina.home" value="/usr/share/tomcat7"/>
+  <property name="catalina.home" value="../../../.."/> <!-- UPDATE THIS! -->
   <property name="dist.home"     value="${basedir}/dist"/>
   <property name="docs.home"     value="${basedir}/docs"/>
   <property name="manager.url"   value="http://localhost:8080/manager/text"/>
